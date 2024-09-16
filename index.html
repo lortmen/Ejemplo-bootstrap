@@ -27,27 +27,27 @@
     </nav>
 
     <!-- Encabezado -->
-    <header class="container">
+    <header class="container-fluid bg-primary text-light text-center py-5 my-4">
         <div class="row">
-            <h1>Bienvenidos a Mi Sitio Web</h1>
-            <p>Este es un ejemplo utilizando HTML básico</p>
+            <h1 class="display-4">Bienvenidos a Mi Sitio Web</h1>
+            <p class="lead">Este es un ejemplo utilizando HTML básico</p>
         </div>
     </header>
 
     <!-- Sección de Contenido -->
-    <section class="container">
+    <section class="container my-4">
         <div class="row">
             <div class="col-md-8">
                 <h2>Sección de Contenido Principal</h2>
                 <p>Este es un ejemplo de cómo puedes organizar tu contenido sin utilizar Bootstrap. Las columnas no se ajustarán automáticamente al tamaño de la pantalla.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non lectus et velit auctor convallis. Nulla facilisi.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 list-group">
                 <h3>Columna Secundaria</h3>
-                <ul>
-                    <li>Elemento 1</li>
-                    <li>Elemento 2</li>
-                    <li>Elemento 3</li>
+                <ul class="p-0">
+                    <li class="list-group-item">Elemento 1</li>
+                    <li class="list-group-item disabled">Elemento 2</li>
+                    <li class="list-group-item list-group-item-danger">Elemento 3</li>
                 </ul>
             </div>
         </div>
@@ -56,7 +56,7 @@
     <!-- Tabla -->
     <section class="container">
         <h2>Tabla de Ejemplo</h2>
-        <table>
+        <table class="table table-dark table-striped table-hover">
             <thead>
                 <tr>
                     <th>#</th>
